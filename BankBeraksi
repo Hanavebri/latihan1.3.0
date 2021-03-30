@@ -1,0 +1,56 @@
+package BankHana;
+
+/**
+ *
+ * @author Hana Vebri Carkawan
+ */
+public class Bank {
+    int saldo, simpanuang, ambiluang;
+    
+    public Bank (){
+        this.saldo=100000;
+        this.simpanuang=500000;
+        this.ambiluang=150000;
+        
+    }
+    
+    public void saldo (){
+        System.out.println("selamat datang di Bank Hana");
+        System.out.println("saldo saat ini" + "Rp." + saldo);
+        
+    }
+    
+    public void simpanuang(int simpanuang){
+        saldo =saldo+simpanuang;
+        System.out.println("simpan uang    = " + simpanuang);
+        System.out.println("saldo saat ini = " + saldo);
+        System.out.println("-----------------------------------");
+    }
+    public void ambiluang(int ambiluang){
+        saldo = saldo-ambiluang;
+        System.out.println("ambil uang     = " + ambiluang);
+        System.out.println("saldo saat ini = " + saldo);
+        
+    }
+    int getsaldo() {
+        return saldo;
+        
+        }
+    }
+=======================================================================
+=======================================================================
+
+package BankHana;
+
+/**
+ *
+ * @author Hana Vebri Carkawan
+ */
+public class BankBeraksi {
+    public static void main(String[] args) {
+        Bank BankHana = new Bank();
+        BankHana.saldo();
+        BankHana.simpanuang(500000);
+        BankHana.ambiluang(150000);
+        }
+    }
