@@ -1,0 +1,24 @@
+* @author Hana Vebri Carkawan
+ */
+public class mobilberaksi {
+    public static void main(String[] args) {
+        mobil1 mobilHana = new mobil1 ();
+        
+        mobilHana.warna = "pink";
+        mobilHana.tahunProduksi = 2001;
+        
+        System.out.println("warna: " + mobilHana.warna);
+        System.out.println("tahun Produksi: " + mobilHana.tahunProduksi); 
+    }
+}
+
+===============================================================================
+===============================================================================
+
+* @author Hana Vebri Carkawan
+ */
+public class mobil1 {
+    String warna;
+    int tahunProduksi;
+    
+}
