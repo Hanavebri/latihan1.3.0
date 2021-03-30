@@ -1,0 +1,18 @@
+package haloindonesia;
+
+/**
+ *
+ * @author hana vebri carkawan
+ */
+public class haloindonesia {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("halo indonesia");
+        System.out.print("selamat pagi indonesia\n");
+        System.out.println("jaya indonesia");
+    }
+    
+}
